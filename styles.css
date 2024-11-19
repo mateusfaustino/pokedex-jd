@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+#container{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    background-color: #F2F2F2;
+}
+
+.pokemon-item{
+    padding: 8px;
+    border: solid 1px #cacaca;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+.item-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#pokedex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.item-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.tipos{
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+
+}
+
+.tipo-item{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-size: 12px;
+}
+
+.grass{
+    background-color: #9bcc50;
+}
+
+.poison{
+    background-color: #b97fc9;
+
+}
+.fire{
+    background-color: #fd7d24;
+
+}
+.flying{
+    background-color: #3dc7ef;
+
+}
+.water{
+    background-color: #3dc7ef;
+
+}
+.bug{
+    background-color: #729f3f;
+
+}
+.electric{
+    background-color: #eed535;
+
+}
+.normal{
+    background-color: #a4acaf;
+
+}
+.ice{
+    background-color: #FFF;
+    border: solid 1px #cacaca;
+
+}
